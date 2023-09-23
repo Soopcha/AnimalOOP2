@@ -5,10 +5,10 @@ public class Cats extends Animal {
     // стат конструкторы выполняется перед созданием класса
 
     static {  //статический
-        System.out.println("Cats static initializer");
+        System.out.println("Cats статический конструктор");
     }
     { //анонимный конструктор
-        System.out.println("Cats instance initializer");
+        System.out.println("Cats анонимный конструктор");
     }
 
 

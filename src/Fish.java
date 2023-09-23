@@ -2,10 +2,10 @@ public class Fish {
     private String name;
 
     static {  //статический
-        System.out.println("Fish static initializer");
+        System.out.println("Fish статический конструктор ");
     }
     { //анонимный конструктор
-        System.out.println("Fish instance initializer");
+        System.out.println("Fish анонимный конструктор ");
     }
 
     public Fish(String name) {
